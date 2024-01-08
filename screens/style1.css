@@ -1,0 +1,15 @@
+* {
+    background: rgb(255, 255, 255);
+}
+
+@font-face {
+    font-family:heading ;
+    src: url(../fonts/BungeeSpice-Regular.ttf);
+}
+
+
+
+h1 {
+    font-family:heading ;
+    color: green;
+}

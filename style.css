@@ -1,0 +1,50 @@
+* {
+    background: rgb(226, 217, 213);
+}
+
+@font-face {
+    font-family: englishstyle;
+    src: url(fonts/BungeeSpice-Regular.ttf);
+}
+
+th {
+    font-family: englishstyle;
+    text-size-adjust: 0.5;
+}
+
+h2 {
+    color: rgb(226, 115, 115);
+    background: rgb(47, 0, 0);
+}
+
+p {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.copyright {
+    text-align: left;
+    background: #000;
+    color: white;
+}
+
+
+h1 {
+    font-size: 300%;
+    text-shadow: 5px 5px 5px;
+}
+
+td {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+a:link {
+    color: black;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+}
+

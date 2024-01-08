@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <h1>Reservation Form</h1>
+    <form action="https://formsubmit.co/wg614215@gmail.com" method="post">
+            <h4>Your Name</h4> <input type="text" required>
+            <h4>Father Name</h4> <input type="text" required>
+            <h4>Email Address</h4> <input type="email" required>
+            <h4>Phone Number</h4> <input type="number" required>
+            <h4>Number Of Person Adult</h4> <input type="number" required>
+            <h4>Number Of Person Childs</h4> <input type="number" required>
+            <h4>Reservation Date & Time</h4> <input type="datetime-local" required>
+            <h4>Select Session</h4>
+            <select name="Select Session">
+                <option value="" disabled selected>Select The Session</option>
+                <option value="Lunch">Lunch</option>
+                <option value="Breakfast">Breakfast</option>
+                <option value="Tea">Tea</option>
+                <option value="Dinner 1">Dinner 1</option>
+                <option value="Dinner 2">Dinner 2</option>
+            </select>
+            <br><br>
+           <h4>Special Request</h4>
+            <textarea name="Special Request" id="" cols="30" rows="10"></textarea>
+<br><br>
+<button>Submit</button>
+    </form>
+</body>
+</html>
